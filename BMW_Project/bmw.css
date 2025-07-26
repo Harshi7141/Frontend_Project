@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    /* background-color: aqua; */
+}
+
+#divs1{
+    flex-basis: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divs1 img{
+    height: 30px;
+    width: 30px;    
+}
+
+#divs2{
+    flex-basis: 700px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    gap: 50px;
+}
+
+#divs2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#divs3{
+    flex-basis: 400px;
+}
+
+#divs4{
+    flex-basis: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+#divs4 i{
+    color: white;
+}
+
+#content video{
+    height: 665px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#content{
+    height: 100vh;
+}
+
+#content>#line{
+    height: 1px;
+    width: 90%;
+    background-color: white;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+}
+
+.Decor{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 27px;
+    /* border: 2px solid red; */
+}
+
+.Decor>.underline{
+    height: 5px;
+    width: 100%;
+    background-color: blue;
+    display: none;
+    flex-direction: column;
+}
+
+.Decor:hover .underline{
+    display: flex;
+}
+
+#square{
+    height: 130px;
+    width: 500px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    padding-left: 30px;
+    display: flex;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    word-spacing: 6px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#square>p{
+    font-size: 50px;
+}
+
+.littlesquare{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(48, 115, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+#square>p{
+    color: white;
+    font-size: 30px;
+}
+
+.littlesquare>p{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.littlesquare:hover{
+    background-color: rgb(5, 5, 126);
+}
+
+#content2{
+    height: 400px;
+    margin-top: -65px;
+    /* background-color: black; */
+}
+
+#FYBMW{
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: end;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    justify-content: center;
+}
+
+#FYBMW>p{
+    font-size: 50px;
+}
+
+#carsicon{
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+    justify-content: center;
+}
+
+#carsicon1{
+    flex-basis: 100px;
+    display: flex;
+    /* margin-top: -20px; */
+    /* margin-left: -80px; */
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+}
+
+#carsicon2{
+    flex-basis: 100px;
+    display: flex;
+    margin-top: -20px;
+    /* background-color: red; */
+    align-items: center;
+    /* margin-left: 30px; */
+    justify-content: center;
+}
+
+#carsicon3{
+    flex-basis: 100px;
+    display: flex;
+    /* margin-top: -20px; */
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 50px; */
+}
+
+
+#name{
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+#name>p{
+    color: black;
+    font-size: 30px;
+}
+
+#buttons{
+    height: 100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#buttons button{
+    height: 70px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+#button1:hover button{
+    border: 2px solid black;
+}
+
+#button2:hover button{
+    border: 2px solid black;
+}
+
+#button3:hover button{
+    border: 2px solid black;
+}
+
+#luxuryBMW{
+    /* height: 100vh; */
+    /* width: 100vw; */
+    overflow-x: hidden;
+}
+
+#luxuryBMW img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.luxury-overlay{
+    height: 200px;
+    width: 500px;
+    /* background-color: red; */
+    position: relative;
+    top: -200px;
+    left: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.luxury-overlay>h2,p{
+    color: white;
+    /* padding-top: -20px; */
+    line-height: -20px
+}
+
+/* .luxury-button{
+    height: 100px;
+    background-color: aqua;
+} */
+
+.luxury-overlay button{
+    height: 70px;
+    width: 300px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid white;
+    
+}
+
+.luxury-overlay button:hover {
+    border: 2px solid white;
+}
+
+#XlineBMW{
+    height: 750px;
+    margin-top: -70px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#XlineBMW img{
+    height: 700px;
+    width: 100%;
+}
+
+#series7{
+    height: 550px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#imga{
+    height: 500px;
+    width: 1520px;
+    background-color: red;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#imga img{
+    height: 500px;
+    width: 1522px;
+    object-fit: cover;
+}
+
+#series7>.luxury-overlay p{
+    color: white;
+}
+
+#BMWIX{
+    height: 600px;
+    /* background-color: aquamarine; */
+    overflow: hidden;
+}
+
+#BMWIX img{
+    height: 550px;
+    width: 1522px;
+    /* object-fit: cover; */
+}
+
+#BMWIX>.luxury-overlay>p{
+    color: white;
+}
+
+#specialoffers{
+    height: 600px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    /* padding-left: 100px; */
+    display: flex;
+}
+
+#oneside{
+   height: 600px;
+   width: 1000px;
+   /* background-color: red;  */
+   padding-left: 100px;
+}
+
+#secondside{
+    height: 600px;
+    width: 522px;
+    /* background-color: blue; */
+    padding-left: 70px;
+    padding-top: 200px;
+}
+
+#specialoffers img{
+    height: 500px;
+    width: 900px;
+}
+
+#footer{
+    height: 600px;
+    /* background-color: aquamarine; */
+}
+
+#part1{
+    height: 100px;
+    background-color: rgb(235, 234, 234);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 70px;
+}
+
+#part1 a{
+    text-decoration: none;
+    color: rgb(6, 6, 25);
+    /* font-weight: 600; */
+}
+
+#part2{
+    height: 400px;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+#divp1{
+    height: 400px;
+    width: 400px;
+    /* background-color: azure; */
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+#divp1 li{
+    margin-bottom: 10px;
+}
+
+#mediaicons{
+    margin-top: 80px;
+    /* background-color: orange; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+#mediaicons i{
+    font-size: 20px;
+}
+
+#divp2{
+    height: 400px;
+    width: 400px;
+    /* background-color: azure; */
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+#divp2 li{
+    margin-bottom: 10px;
+}
+
+#divp3{
+    flex-basis: 300px;
+    /* background-color: azure; */
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+#divp3 li{
+    margin-bottom: 10px;
+}
+
+#divp4{
+    flex-basis: 321px;
+    /* background-color: azure; */
+    padding-top: 70px;
+    /* padding-left: 100px; */
+
+}
+
+#divp4 li{
+    margin-bottom: 10px;
+}
+
+#footerlast{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+#divfo1{
+    flex-basis: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#divfo1 p{
+    color: black;
+}
+
+#divfo2{
+    flex-basis: 800px;
+    /* background-color: red; */
+}
+
+
+#divfo3{
+    flex-basis: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divfo3 p{
+    color: black;
+}
+
+
+#divfo4{
+    flex-basis: 150px;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divfo4 p{
+    color: black;
+}
+
+
+#divfo5{
+    flex-basis: 100px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divfo5 p{
+    color: black;
+}
